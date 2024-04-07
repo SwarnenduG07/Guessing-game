@@ -5,6 +5,6 @@ fn main() {
     println!("plese input your guess. ");
     let mut guess = String::new();
     io::stdin().read_line(&mut guess)
-    .expect("Failed to read line"); // error handelinglm
+    .expect("Failed to read line"); // error handling
  println!("you guessed: {}", guess);
 }
