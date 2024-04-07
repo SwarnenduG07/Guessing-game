@@ -40,7 +40,7 @@ match guess.cmp(&secret_number) {
 
 attampts += 1;
 if attampts == max_attampts {
-    println!("Fuck you looser");
+    println!("You lost bro 🤡");
     break;
 }
     
