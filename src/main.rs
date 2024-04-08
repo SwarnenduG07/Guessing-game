@@ -41,6 +41,8 @@ match guess.cmp(&secret_number) {
 attampts += 1;
 if attampts == max_attampts {
     println!("You lost bro 🤡");
+   
+      println!("the secret number is: {}",                    secret_number);         //print out the secret number)
     break;
 }
     
